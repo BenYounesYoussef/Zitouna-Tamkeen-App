@@ -1,0 +1,68 @@
+{
+  "name": "Zitouna Tamkeen - Microfinance Islamique",
+  "short_name": "Zitouna Tamkeen",
+  "description": "Application de microfinance islamique pour soumettre vos demandes facilement",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#6B8E23",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "fr",
+  "categories": ["finance", "business"],
+  "icons": [
+    {
+      "src": "/logo-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-mobile.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/screenshot-desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Guides",
+      "short_name": "Guides",
+      "description": "Accéder aux guides étape par étape",
+      "url": "/guides",
+      "icons": [
+        {
+          "src": "/logo-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Administration",
+      "short_name": "Admin",
+      "description": "Panneau d'administration",
+      "url": "/admin",
+      "icons": [
+        {
+          "src": "/logo-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
+
